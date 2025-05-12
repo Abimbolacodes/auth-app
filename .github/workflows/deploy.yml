@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install Stuff
-        run: npm install
+      - name: Run Tests
+        run: npm test
 
       - name: Build App
         run: npm run build
