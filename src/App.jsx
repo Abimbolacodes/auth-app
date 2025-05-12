@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import AuthForm from './components/AuthForm';
+import AuthForm from './Components/AuthForm';
 import Home from './pages/Home';
 
 function App() {
